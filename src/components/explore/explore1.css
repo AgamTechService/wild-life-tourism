@@ -1,0 +1,23 @@
+.explore{
+    background-image: url("../../image/tigerImage.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+  width: 1400px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left:20px;
+ 
+}
+.text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: -20px;
+
+}
+
+h4{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(137, 129, 14);
+    font-weight: lighter;
+}

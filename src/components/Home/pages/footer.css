@@ -1,0 +1,152 @@
+.footer {
+    width: 100%;
+    height: auto;
+    background: url("C:/Users/ASUS/Desktop/wild-Turisom-main/src/image/Footer.png") no-repeat;
+    background-size: cover;
+    background-color: #502e11;
+    margin-top: -50px;
+   
+    .footerContent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: center;
+        margin-bottom: 10px;
+        
+    }
+
+    .company-details,
+    .about-details {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        /* background-color: black; */
+        width: fit-content;
+    
+        .company-about {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            font-size: 22px;
+            color: black;
+            text-decoration: none;
+        }
+    }
+
+    .social-media {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+
+        .iconFooter {
+            width: 50px;
+            height: 50px;
+            color: #228B22;
+        }
+
+        .faceBookIcon:hover {
+            color: #1877F2;
+        }
+
+        .twitterIcon:hover {
+            color: #1DA1F2;
+        }
+
+        .instagramIcon:hover {
+            color: #833AB4;
+        }
+    }
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        text-align: center;
+        background-color: transparent !important;
+        font-size: 12px;
+        column-gap: -10px;
+
+        .footerLogo {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            color: blue;
+            text-decoration: none;
+        }
+
+        .ats{
+            color: blue;
+            text-decoration: none;
+        }
+    }
+
+    .footer-form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        background-color: #502e11;
+        width: 100%;
+        height: 5em;
+
+        input {
+            font-size: 32px;
+            padding: 3px 8px;
+            border: none;
+            color: rgba(255, 255, 255, 0.500);
+            border-left: 1px solid #fff;
+            background-color: transparent !important;
+            outline: none;
+            font-family: 'Caveat', cursive;
+        }
+
+        button {
+            font-size: 22px;
+            padding: 10px 22px;
+            border-radius: 5px;
+            border: none;
+            background-color: transparent;
+            outline: 1px solid #fff;
+            color: #fff;
+            font-weight: bolder;
+            cursor: pointer;
+            font-family: 'Caveat', cursive;
+        }
+
+        button:hover{
+            background-color: #fff;
+            color: #502e11;
+            border: none;
+            transition: color .5s ease;
+        }
+
+        .footer-enquiry {
+            font-family: 'Caveat', cursive;
+            font-size: 45px;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke: 3px;
+            -webkit-text-stroke-color: #fff;
+        }
+    }
+}
+
+.footerHeader {
+    font-size: 48px;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #ff7700;
+    letter-spacing: -2.5px;
+    font-weight: bolder;
+}

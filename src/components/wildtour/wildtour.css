@@ -1,0 +1,75 @@
+.wildtour{
+    background-image: url("../../image/wildtour/tigerwild.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  width: 1400px;
+  height: 700px;
+  position: absolute;
+}
+
+.wildtext{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 600px;
+    color: rgb(255, 255, 255);
+    font-size:50px;
+}
+
+h3{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    color: #5e6256c5;
+}
+
+h2{
+    text-align: center;
+    margin-top: 40px;
+}
+
+h1{
+    color: rgb(104, 91, 8);
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+h4{
+    color: black;
+}
+
+.day1{
+    margin-right: 20%;
+}
+
+.day2{
+    margin-right: 46%;
+}
+
+.day3{
+    margin-right: 40%;
+}
+
+.highlightjourney{
+    color: rgb(108, 74, 29);
+    margin-bottom: 40%;
+    margin-left:  1% ;
+}
+
+.container{
+    background-color: rgba(174, 139, 94, 0.427);
+    height: 400px;
+    width: 900px;
+    margin-left: 10%;
+}
+h6{
+    margin-top: -350px;
+    margin-left: 70px;
+}
+
+.detail{
+    color: black;
+    margin-top: 20px;
+    margin-left: -480px;
+    font-size: 25px;
+
+}

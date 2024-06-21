@@ -1,0 +1,145 @@
+.tour {
+    margin-top: 100px;
+    height: auto;
+    width: 100%;
+    background-color: transparent !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    .exploreClass {
+        text-align: center;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 2.8px;
+        -webkit-text-stroke-color: #502e11;
+        font-size: 66px;
+    }
+
+    .rowOne {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        .TourPackage {
+            position: relative;
+            height: 30vh;
+            width: fit-content;
+            background-color: transparent !important;
+        }
+
+        .TourdivImage {
+            overflow: hidden;
+            height: 30vh;
+            width: fit-content;
+            transition: transform 0.2s ease-in-out;
+            border-radius: 5px;
+
+            .tourImage {
+                height: 100%;
+                width: 400px;
+                object-fit: cover;
+                transition: transform 0.2s ease-in-out;
+                border-radius: 5px;
+            }
+          .zebra{
+            width: 400px;
+            height:100%;
+            margin-left: 20%;
+          }
+
+          .leo{
+            width: 400px;
+            height:100%;
+            margin-left: 10%;
+          }
+
+          .tiger{
+            width: 400px;
+          }
+
+        }
+
+        .TourPackage:hover .tourImage {
+            transform: scale(1.2);
+        }
+
+        .TourPackage:hover .overlay {
+            opacity: 1;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ffffffc7;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+            .tourHOne {
+                text-align: center;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke: 1px;
+                font-size: 32px;
+                -webkit-text-stroke-color: #502e11;
+            }
+
+            .ratingTour {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                position: relative;
+                top: -80px;
+                left: 20px;
+            }
+
+            .priceDetails {
+                position: relative;
+                font-size: 20px;
+                top: 80px;
+                left: -200px;
+                color: green;
+                font-weight: bolder;
+                padding: 3px 8px;
+                background-color: white;
+            }
+
+            .exploreLinkTour {
+                position: relative;
+                top: 80px;
+                font-size: 22px;
+                right: 10px;
+                text-decoration: none;
+                color: black;
+                font-weight: 450;
+            }
+        }
+
+
+    }
+}
+
+.rateTourIcon {
+    color: #ffa41b;
+}
+
+.tigerPrice{
+    margin-right: -20px;
+}
+
+.elephantPrice{
+    margin-left: -40px;
+}
