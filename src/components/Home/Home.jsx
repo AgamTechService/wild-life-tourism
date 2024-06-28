@@ -5,8 +5,8 @@ import lion from '../../image/lion.jpg';
 import bear from '../../image/Sloth_Bear-removebg-preview.png';
 import profile from '../../image/profileClient.jpe;
 import './Home.css';
-class Home extends Component {
-    constructor(props) {
+class Home{
+props) {
         super(props);
         this.state = {
             isScrolled: false,
