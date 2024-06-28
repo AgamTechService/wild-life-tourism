@@ -4,7 +4,7 @@ import './explore1.css';
 
 
 const Explore2 = () => {
-    return (
+    (
         <>
             <h1 className="explore">
                 <div className="tiger">
@@ -26,4 +26,4 @@ Although November to June is the peak season for wildlife adventure at the Jim C
     );
 };
  
-export default Explore2;
+export ;
