@@ -8,7 +8,7 @@ import './navbar.css';
 
 
 class Navigation extends Component {
-    constructor(props) {
+    (props) {
         super(props);
         this.state = {
             isScrolled: false,
@@ -32,13 +32,7 @@ class Navigation extends Component {
         window.removeEventListener('scroll', this.handleScroll);
     }
 
-    handleScroll() {
-        const scrollTop = window.scrollY;
-        if (scrollTop > 50) {
-            this.setState({ isScrolled: true });
-        } else {
-            this.setState({ isScrolled: false });
-        }
+   
     }
 
     render() {
