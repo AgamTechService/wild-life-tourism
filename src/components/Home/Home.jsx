@@ -3,22 +3,8 @@ import leafAbout from '../../image/leafabout.png';
 import tiger from '../../image/tigerThree.png';
 import lion from '../../image/lion.jpg';
 import bear from '../../image/Sloth_Bear-removebg-preview.png';
-import profile from '../../image/profileClient.jpeg';
-import cloud from '../../image/cloud.png';
-import { Link } from "react-router-dom";
-import { FaStar } from "react-icons/fa6";
-import { FaRegArrowAltCircleLeft } from "react-icons/fa";
-import { FaRegArrowAltCircleRight } from "react-icons/fa";
-import { FaRegStarHalfStroke } from "react-icons/fa6";
-import { GiIndiaGate } from "react-icons/gi";
-import { TbWorld } from "react-icons/tb";
-import NationalTour from "./pages/nationTour";
-import ToNationalPark from "./pages/tonationalpark";
-import Footer from "./pages/Footer";
+import profile from '../../image/profileClient.jpe;
 import './Home.css';
-
-
-
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -31,20 +17,11 @@ class Home extends Component {
         window.addEventListener('scroll', this.handleScroll);
     }
 
-    componentWillUnmount() {
+() {
         window.removeEventListener('scroll', this.handleScroll);
     }
 
-    handleScroll() {
-        const scrollTop = window.scrollY;
-        if (scrollTop > 1400) {
-            this.setState({ isScrolled: true });
-        } else {
-            this.setState({ isScrolled: false });
-        }
-    }
-    render() {
-        const { isScrolled } = this.state;
+    is.state;
         return (
             <main className="main">
                 <section className="main-section-one">
@@ -141,11 +118,7 @@ class Home extends Component {
                             " Overall, WildLife Tourism Company provided an unforgettable adventure, and I can’t wait to book my next trip with them. Highly recommended for anyone who loves nature and wants to experience it responsibly and authentically! "
                         </div>
                         <div className="clientRating">
-                            <FaStar className="ratingIcon" />
-                            <FaStar className="ratingIcon" />
-                            <FaStar className="ratingIcon" />
-                            <FaStar className="ratingIcon" />
-                            <FaRegStarHalfStroke className="ratingIcon" />
+                            fStroke className="ratingIcon" />
                         </div>
                         <div className="arrowSlider">
                             <Link className="arrowIconStyle"><FaRegArrowAltCircleLeft className="arrowIcon" /></Link>
@@ -153,14 +126,7 @@ class Home extends Component {
                         </div>
                     </div>
                 </section>
-                <section className="main-section-five">
-                    <h1 className="nationalPark-header">WILD TOUR PLACES IN INDIA</h1>
-                    <ToNationalPark/>
-                </section>
-               <Footer/>
-            </main>
-        )
-    }
+                
 }
 
 export default Home;
