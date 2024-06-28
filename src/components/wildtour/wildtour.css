@@ -1,24 +1,8 @@
-.wildtour{
-    background-image: url("../../image/wildtour/tigerwild.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-  width: 1400px;
-  height: 700px;
-  position: absolute;
-}
+
 
 .wildtext{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    margin-top: 600px;
-    color: rgb(255, 255, 255);
-    font-size:50px;
-}
-
-h3{
-    font-family:'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 40px;
     color: #5e6256c5;
 }
 
