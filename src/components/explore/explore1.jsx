@@ -4,10 +4,10 @@ import './explore1.css';
 
 
 const Explore1 = () => {
-    return (
+     (
         <>
             <h1 className="explore">
-                <div className="tiger">
+                
                 </div>
                 
             </h1>
@@ -21,4 +21,4 @@ An area of 39.80 Sq. Km of KFDC plantation area was handed over to this division
     );
 };
  
-export default Explore1;
+export default;
