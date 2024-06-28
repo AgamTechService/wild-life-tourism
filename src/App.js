@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from './components/navigationbar/navbar';
 import Home from './components/Home/Home';
 import TopArrow from './components/TopView/Arrow';
@@ -8,19 +7,12 @@ import ToNationalPark from './components/Home/pages/tonationalpark';
 import Explore1 from './components/explore/explore1';
 import Explore2 from './components/explore/explore2';
 import Explore3 from './components/explore/explore3';
-import Explore4 from './components/explore/explore4';
 import Explore5 from './components/explore/explore5';
 import WildExplore1 from './components/wildtour/wildexplore1';
 import WildExplore2 from './components/wildtour/wildexplore2';
-import WildExplore3 from './components/wildtour/wildexplore3';
-import WildExplore4 from './components/wildtour/wildexplore4';
-import WildExplore5 from './components/wildtour/wildexplore5';
-
-
-
 class App extends React.Component {
   render() {
-    return (
+     (
       <Router>
         <div className="App">
           <Navigation />
@@ -41,7 +33,7 @@ class App extends React.Component {
             <Route path="/nationtour" element={<Home />} />
             <Route path="/tonationalpark" element={<Home />} />
           </Routes>
-          <TopArrow />
+      
         
         </div>
       </Router>
